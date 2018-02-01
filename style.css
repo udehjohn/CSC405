@@ -1,0 +1,181 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+*{
+	padding:0px;
+	margin:0px;
+}
+#nav_home{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background: cyan;
+}
+#nav_home h1{
+	float:left;
+	float:top;
+	font-size:3em;
+	margin-left:15px;
+	color:gray;
+}
+#nav1_home h1 a{
+	text-decoration:none;
+	color:gray;
+} 
+#nav_home ul{
+	float:right;
+	margin-right:15px;
+}
+#nav_home ul li{
+	display:inline-block;
+	list-style-type:none;
+}
+#nav_home ul li a{
+	text-decoration:none;
+	color:gray;
+	padding:25px;
+	text-align:center;
+}
+#main-content{
+	width:100%;
+	height:600px;
+	background:url("parallax-bg.jpg") no-repeat;
+	background-size:cover;
+	text-align:center;
+	color:white;
+	line-height:20px;
+}
+#footer{
+	width:100%;
+	height:100px; 
+	padding-top:1px;
+	background:#969094;
+}
+#footer h3{
+	color:white;
+	margin-top:50px;
+	background:#969094;
+}
+#image-home{
+	border-radius:50%;
+	float:left;
+	height:70%;
+}
+
+
+
+
+
+#nav_about{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background: cyan;
+	color:black;
+}
+#nav_about h1{
+	float:left;
+	float:top;
+	font-size:3em;
+	margin-left:10px;
+}
+#nav_about h1 a{
+	text-decoration:none;
+	color:black;
+} 
+#nav_about ul{
+	float:right;
+	margin-right:15px;
+}
+#nav_about ul li{
+	display:inline-block;
+	list-style-type:none;
+}
+#nav_about ul li a{
+	text-decoration:none;
+	color:black;
+	padding:25px;
+	text-align:center;
+}
+#main-content-about{
+	width:100%;
+	height:600px;
+	background:url("images.jpg") no-repeat;
+	background-size:cover;
+	text-align:left;
+	color:black;
+	line-height:30px;
+}
+#main-content-about h3{
+	line-height:10px;
+	padding-bottom:20px;
+}
+#footer{
+	width:100%;
+	height:100px; 
+	background:white;
+	padding-top:0.1px;
+}
+#footer h3{
+	color:white;
+}
+#image-about{
+	border-radius:50%;
+}
+#background{
+	background-image:url("drawn-wallpaper-simple-drawing-14.jpg");
+}
+
+
+
+
+#nav_contact{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background: #B47E5C;
+}
+#nav_contact h1{
+	float:left;
+	float:top;
+	font-size:10em;
+	margin-left:15px;
+	padding-bottom:35px;
+}
+#nav_contact h1 a{
+	text-decoration:none;
+	color:white;
+} 
+#nav_contact ul{
+	float:right;
+	margin-right:15px;
+}
+#nav_contact ul li{
+	display:inline-block;
+	list-style-type:none;
+}
+#nav_contact ul li a{
+	text-decoration:none;
+	color:white;
+	padding:25px;
+	text-align:left;
+}
+#footer{
+	width:100%;
+	height:100px; 
+	background:#B47E5C;
+	padding-top:0.1px;
+}
+#footer h3{
+	color:white;
+}
+#contact{
+	width:100%;
+	height:600px;
+	background:url("header.jpg") no-repeat;
+	background-size:cover;
+	text-align:left;
+	color:white;
+	line-height:20px;
+	padding-top:100px;
+}
